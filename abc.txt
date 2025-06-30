@@ -1,0 +1,4 @@
+=> React Component
+--> There are two types of Component.
+--> 1.Class Based Component  --older  ----> 1% used
+--> 2.Functional Component   --newer  ----> 99% used

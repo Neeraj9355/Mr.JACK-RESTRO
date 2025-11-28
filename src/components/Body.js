@@ -23,8 +23,7 @@ const Body = () => {
     setLoading(true);
     setError(null);
     try {
-      const corsUrl = 'https://cors-anywhere.herokuapp.com/${RESTAURANT_CARD_API}';
-      const data = await fetch(corsUrl);
+      const data = await fetch(RESTAURANT_CARD_API);
       const json = await data.json();
 
       
